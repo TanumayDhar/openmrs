@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17376541600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the landing page of the openMRS application",
+            "match": {
+              "location": "CommonPages.user_is_on_the_landing_page_of_the_openmrs_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "As a user I want to login as an",
+        "description": "Inpatient ward in OpenMRS application.",
+        "id": "to-login-as-an-inpatient-ward-successfully.;as-a-user-i-want-to-login-as-an;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 339934600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provides valid Admin and Admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.user_provides_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113616400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on location as Inpatient ward",
+            "match": {
+              "location": "Steps.click_on_location_as_inpatient_ward()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6141701000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "than click on Login",
+            "match": {
+              "location": "Steps.than_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17307700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify that the user logged in as an Inpatient ward",
+            "match": {
+              "location": "Steps.verify_that_the_user_logged_in_as_an_inpatient_ward()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5741736000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "than user logged out and quits the application successfully",
+            "match": {
+              "location": "Steps.than_user_logged_out_and_quits_the_application_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@InpatientWardTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3270076200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the landing page of the openMRS application",
+            "match": {
+              "location": "CommonPages.user_is_on_the_landing_page_of_the_openmrs_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "",
+        "description": "",
+        "id": "to-login-as-an-inpatient-ward-successfully.;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 216772100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user provides valid Admin and Admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.user_provides_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78057300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on Isolation ward",
+            "match": {
+              "location": "Steps.click_on_isolation_ward()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2036248400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "than click on Login",
+            "match": {
+              "location": "Steps.than_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11737664500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "than click on Register a Patient",
+            "match": {
+              "location": "Steps.than_click_on_register_a_patient()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5756338000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "than user logged out and quits the application successfully",
+            "match": {
+              "location": "Steps.than_user_logged_out_and_quits_the_application_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@IsolationWardTest"
+          }
+        ]
+      }
+    ],
+    "name": "To login as an Inpatient ward successfully.",
+    "description": "",
+    "id": "to-login-as-an-inpatient-ward-successfully.",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

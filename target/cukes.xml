@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="52.825994">
+<testcase classname="To login as an Inpatient ward successfully." name="As a user I want to login as an" time="29.730837">
+<system-out><![CDATA[Given user is on the landing page of the openMRS application................passed
+When user provides valid Admin and Admin123.................................passed
+And click on location as Inpatient ward.....................................passed
+And than click on Login.....................................................passed
+Then verify that the user logged in as an Inpatient ward....................passed
+And than user logged out and quits the application successfully.............passed
+]]></system-out>
+</testcase>
+<testcase classname="To login as an Inpatient ward successfully." name="" time="23.095157">
+<system-out><![CDATA[Given user is on the landing page of the openMRS application................passed
+When user provides valid Admin and Admin123.................................passed
+And click on Isolation ward.................................................passed
+And than click on Login.....................................................passed
+Then than click on Register a Patient.......................................passed
+And than user logged out and quits the application successfully.............passed
+]]></system-out>
+</testcase>
+</testsuite>
